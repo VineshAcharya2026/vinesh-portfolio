@@ -13,15 +13,15 @@ const projects = [
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
-      <Header name="Vines" />
+      <Header name="Vineshh" />
       <main className="max-w-4xl mx-auto px-6 py-16">
         <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y:0 }} transition={{ duration: 0.8 }}>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0 rounded-full overflow-hidden ring-2 ring-offset-2 ring-slate-700">
-              <img src="./assets/profile.svg" alt="Vines" className="w-full h-full object-cover" />
+              <img src="./assets/profile.svg" alt="Vineshh" className="w-full h-full object-cover" />
             </div>
             <div>
-              <h1 className="text-3xl md:text-4xl font-semibold">Hi, I'm <span className="text-indigo-400">Vines</span> 👋</h1>
+              <h1 className="text-3xl md:text-4xl font-semibold">Hi, I'm <span className="text-indigo-400">Vinesh</span> 👋</h1>
               <p className="mt-3 text-slate-300 max-w-xl">
                 I'm building this personal website as part of my internship project. I focus on clean UI,
                 readable code, and pleasant micro-interactions. This one uses React + Tailwind + Framer Motion.
@@ -55,7 +55,7 @@ export default function App() {
           <p className="mt-3 text-slate-300">Email: <a href="mailto:your-email@example.com" className="text-indigo-300">your-email@example.com</a></p>
         </section>
       </main>
-      <Footer name="Vines" />
+      <Footer name="Vinesh" />
     </div>
   );
 }
